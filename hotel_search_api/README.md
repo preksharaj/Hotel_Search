@@ -1,7 +1,7 @@
 #Hotel Search API
 
 # Setup
-Run "setup.sh" in order to setup the environment before starting the API, 
+Run `setup.sh` in order to setup the environment before starting the API, 
 this script installs Fabric - Fabric is a Python library and command-line tool for 
 streamlining the use of SSH for application deployment or systems administration tasks.
 This enables easy usage of this API
