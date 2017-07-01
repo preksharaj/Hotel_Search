@@ -27,4 +27,4 @@ class hotelSearch(object):
         # flatten the list
         responses = [r for provider_list in responses for r in provider_list]
 	#print responses
-        raise gen.Return(sorted(responses, key=lambda x: x['ecstasy']))
+        raise gen.Return(sorted(responses, key=lambda x: x['ecstasy'], reverse=True))
