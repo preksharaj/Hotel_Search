@@ -23,7 +23,7 @@ def test_hotel_search():
         assert count == expected, "%s results missing for %s" % (
             expected - count, provider, )
 
-    sorted_results = sorted(results, key=lambda r: r["ecstasy"])
+    sorted_results = sorted(results, key=lambda r: r["ecstasy"],reverse=True)
     for r in sorted_results:
 	print "ecstasy:",r["ecstasy"]
 	print "name:",r["name"]
